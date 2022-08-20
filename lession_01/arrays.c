@@ -28,27 +28,29 @@ int main() {
 	printf("void pointer to array: %p\n", void_pointer_to_values);
 
 	// imprime cuantos bytes ocupa un entero en el sistema actual
-	printf("size of interger %d\n", sizeof(int));
+	printf("size of interger %lu\n", sizeof(int));
 	// Regresa el numero de bytes que ocupa el arreglo completo
-	printf("size of array: %d\n", sizeof(values));
+	printf("size of array: %lu\n", sizeof(values));
 	// Regresa el numero de bytes que ocupa una direccion de memoria 
 	// en la computadora donde se ejecuta
-	printf("size of array through pointer: %d\n", sizeof(pointer_to_values) );
+	printf("size of array through pointer: %lu\n", sizeof(pointer_to_values) );
 
 	// Aritmetica de apuntadores, *(values + 2) == values[2]
 	printf("pointer: %p, pointer + 2: %p\n", values, values + 2);
+	printf("pointer at position 2: %p\n", &values[2]);
 	printf("value at position 2 %d\n", *(values + 2));
 	printf("value at position 2 %d\n", values[2]);
 
 	// Este arreglo lo creamos en el heap por medio de create_array
 	int* array_head = create_array();
 	printf("other array: %p\n", array_head);
+	// *array_head == *(array_head + 0) == array_head[0]
 	printf("other array value at 0: %d\n", *array_head);
 
 	// C no tiene garbage collector, por lo que la memoria que pedimos del Heap
-  // la tenemos que liberar explicitamente llamando la función free
-  // No vamos a utiliza realmente malloc durante el curso
-  free(array_head);
+	// la tenemos que liberar explicitamente llamando la función free
+	// No vamos a utiliza realmente malloc durante el curso
+	free(array_head);
 
 	return EXIT_SUCCESS; // 0 definido en stdlib
 }
