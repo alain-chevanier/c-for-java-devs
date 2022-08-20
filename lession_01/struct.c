@@ -64,7 +64,7 @@ int main() {
 
   // Esta es la cantidad de memoria que utiliza un struct node en
   // la computadora donde ejecutamos este programa.
-  printf("sizeof(struct node) -> %d\n", sizeof(struct node));
+  printf("sizeof(struct node) -> %lu\n", sizeof(struct node));
 
   // Asi creamos un "struct node" en el heap
   struct node* other_node = create_node(8);
