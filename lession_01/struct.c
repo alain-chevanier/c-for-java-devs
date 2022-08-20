@@ -22,6 +22,7 @@ void set_node_value(struct node* pointer_to_node, int new_value) {
 	// Es azucar sintactito de "(*pointer_to_node).value = new_value;"
 }
 
+// Paso por valor: se crea una copia del struct node
 void set_node_value_wrong_way(struct node node, int new_value) {
   node.value = new_value;
 }
