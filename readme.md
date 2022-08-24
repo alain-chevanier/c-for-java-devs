@@ -2,8 +2,6 @@
 
 ## Lesson 1
 
-### Topics
-
 * Structural programming
 * Hello World
 * Pointers
@@ -12,7 +10,18 @@
 * Stack vs Heap
 * Memory Allocation through `malloc`
 
-### Usage Instructions
+## Lesson 2
+
+* Argument Passing
+* Booleans
+* Strings
+* Static Key Word. (Modificador de acceso)
+* Global Variables
+* Preprocesor directives
+	- Macros
+	- textual sustitution
+
+## Usage Instructions
 To compile use a command like this:
 
 ```bash
