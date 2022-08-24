@@ -2,8 +2,6 @@
 
 ## Lesson 1
 
-### Topics
-
 * Structural programming
 * Hello World
 * Pointers
@@ -12,11 +10,7 @@
 * Stack vs Heap
 * Memory Allocation through `malloc`
 
-
-
 ## Lesson 2
-
-### Topics
 
 * Argument Passing
 * Booleans
@@ -26,17 +20,6 @@
 * Preprocesor directives
 	- Macros
 	- textual sustitution
-* Preprocesor directives.
-    - header files
-* Arrays
-	- length, bubble sort
-
-* Structs
-	- list
-		+ how they look in pintos
-		+ init, insert, length, delete.
-* Docker thorugh docker file
-
 
 ## Usage Instructions
 To compile use a command like this:
