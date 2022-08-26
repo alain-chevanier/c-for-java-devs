@@ -21,6 +21,16 @@
 	- Macros
 	- textual sustitution
 
+## Lesson 3
+
+* Preprocesor directives
+	- Header files
+* Structs, list
+		+ how they look in pintos
+		+ init, insert, length, delete.
+
+
+
 ## Usage Instructions
 To compile use a command like this:
 
