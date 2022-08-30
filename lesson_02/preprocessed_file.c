@@ -1590,7 +1590,7 @@ void __assert_rtn(const char *, const char *, int, const char *) __attribute__((
 # 22 "preprocesor_directives.c" 2
 # 1 "/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdbool.h" 1 3
 # 23 "preprocesor_directives.c" 2
-# 44 "preprocesor_directives.c"
+# 47 "preprocesor_directives.c"
 int main() {
   printf("LIMIT %d\n", 5);
   printf("ADD(%d, %d) -> %d\n", 1, 2, ((1) + (2)));
