@@ -20,7 +20,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <stdbool.h>
-#include "list.h"
+//#include "list.h"
 
 
 /*
@@ -33,6 +33,9 @@
 // inesperados, dado que no podemos garantizar que la presedencia de
 // operadores se respete al hacer sustitucion textual
 #define ADD(x, y) ((x) + (y))
+
+// Observa que al remover estos paréntesis, 
+// la sustitución no se realiza de forma correcta
 #define MULT(x, y) (x * (y))
 
 /*
