@@ -22,6 +22,7 @@ void set_node_value(struct node* pointer_to_node, int new_value) {
 	// Es azucar sintactito de "(*pointer_to_node).value = new_value;"
 }
 
+// Paso por valor: se crea una copia del struct node
 void set_node_value_wrong_way(struct node node, int new_value) {
   node.value = new_value;
 }
@@ -64,7 +65,7 @@ int main() {
 
   // Esta es la cantidad de memoria que utiliza un struct node en
   // la computadora donde ejecutamos este programa.
-  printf("sizeof(struct node) -> %d\n", sizeof(struct node));
+  printf("sizeof(struct node) -> %lu\n", sizeof(struct node));
 
   // Asi creamos un "struct node" en el heap
   struct node* other_node = create_node(8);
