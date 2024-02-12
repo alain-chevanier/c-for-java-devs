@@ -1,0 +1,43 @@
+* C for Java Devs
+
+** Lesson 1
+
+*** Structural programming
+*** Hello World
+*** Pointers
+*** Arrays
+*** Structs
+*** Stack vs Heap
+*** Memory Allocation through `malloc`
+
+** Lesson 2
+
+*** Argument Passing
+*** Booleans
+*** Strings
+*** Static Key Word. (Modificador de acceso)
+*** Global Variables
+*** Preprocesor directives
+- Macros
+- textual sustitution
+
+** Lesson 3
+
+*** Preprocesor directives
+	- Header files
+*** Structs, list
+		+ how they look in pintos
+		+ init, insert, length, delete.
+
+** Usage Instructions
+To compile use a command like this:
+
+#+begin_src bash
+gcc file_name.c -o executable_name
+#+end_src
+
+To execute the produced executable file, try a command liek this:
+
+#+begin_src bash
+./executable_name
+#+end_src
