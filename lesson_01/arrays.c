@@ -47,8 +47,8 @@ int main() {
 
 	// C no tiene garbage collector, por lo que la memoria que pedimos del Heap
   // la tenemos que liberar explicitamente llamando la función free
-  // No vamos a utiliza realmente malloc durante el curso
-  free(array_head);
+  // Vamos a utilizar  malloc muy poco durante el curso
+  free (array_head);
 
 	return EXIT_SUCCESS; // 0 definido en stdlib
 }
